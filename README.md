@@ -5,7 +5,7 @@ In this project I hope to use the html and css that I have been learning over th
 where the training wheels get taken off I expect things to get messy. I will check back in after I finish to write out the skills that
 I used and learned while doing the project. 
 
-Test 1
+Test 1 - saving to git from my computer
 
 
 From The Odin Project's [curriculum](http://www.theodinproject.com/courses/web-development-101/lessons/html-css)
