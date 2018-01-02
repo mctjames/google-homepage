@@ -1,20 +1,44 @@
-img {
-	display: block;
-	margin: auto;
-	width: 50%;
-	border: 3px solid green;
-	padding: 25px;
+html * {
+font-family: arial sans-serif;
+font-size: 13px;
+}
+#AppsIcon {
+	height: 16px;
+	color: #fff;
 }
 
-#search {
-	display: block;
-	margin: auto;
-		border: 3px solid green;	
-	padding: 25px;
+#Notificaitons {
+	height: 20px;
+	color: #fff;
 }
 
-#navbar {
-	color: red;
-	border: 3px solid green;
-	padding: 10px;
+#Account {
+	height: 40px;
+}
+#Logo {
+	width: 272px;
+	height: 92px;
+}
+
+/*google uses a box around the search bar and the search bar is invisable */
+#SearchBar {
+		border: medium none;
+
+  		float: center;
+        display: block;
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+        }
+
+
+
+
+
+/*not working */
+#Navbar {
+	opacity: 0.75
+	color: #000;
+	size: 100px;
+	text-decoration: underline;	
 }
