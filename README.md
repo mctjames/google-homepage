@@ -7,5 +7,7 @@ I used and learned while doing the project.
 
 Test 1 - saving to git from my computer
 
+Update as of Jan 2nd - I am starting to get things into position. I think I need to read up on classes and lists again. I suspect using those two things would make the process easier. 
+
 
 From The Odin Project's [curriculum](http://www.theodinproject.com/courses/web-development-101/lessons/html-css)

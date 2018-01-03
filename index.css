@@ -2,43 +2,87 @@ html * {
 font-family: arial sans-serif;
 font-size: 13px;
 }
+
+#About {
+	display: inline-block;
+	padding-left: 15px;
+	color: #000;
+	opacity: 0.75;
+	cursor: pointer;
+}
+
+#Store {
+	display: inline-block;
+	padding-left: 15px;
+	color: #000;
+	opacity: 0.75;
+	cursor: pointer;
+}
+
+#Gmail {
+	padding-left: 800px;
+	display: inline-block;
+	color: #000;
+	opacity: 0.75;
+	cursor: pointer;
+}
+
+#Images {
+	padding-left: 15px;
+	display: inline-block;
+	color: #000;
+	opacity: 0.75;
+	cursor: pointer;
+}
+
 #AppsIcon {
+	padding-left: 45px;
 	height: 16px;
 	color: #fff;
+	cursor: pointer;
 }
 
 #Notificaitons {
+	padding-left: 40px;
 	height: 20px;
 	color: #fff;
+	cursor: pointer;
 }
 
 #Account {
+	padding-left: 45px;
 	height: 40px;
+	cursor: pointer;
 }
+
 #Logo {
 	width: 272px;
 	height: 92px;
+	margin: auto;
+	display: block;
+	padding: 109px 0px 0px 0px;
 }
+
+
 
 /*google uses a box around the search bar and the search bar is invisable */
 #SearchBar {
-		border: medium none;
-
+		border: border-box #222;
+		
   		float: center;
         display: block;
-        width: 100%;
-        margin: 0px;
+        width: 45%;
+        margin: auto;
         padding: 0px;
-        }
-
-
-
-
-
-/*not working */
-#Navbar {
-	opacity: 0.75
-	color: #000;
-	size: 100px;
-	text-decoration: underline;	
 }
+
+#Buttons {
+	padding: 15px 0;
+	text-align: center;
+} 
+
+#Francais {
+	text-align: center;
+}
+
+  

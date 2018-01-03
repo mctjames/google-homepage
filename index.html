@@ -10,11 +10,11 @@
 <body>
 
 <!-- the navigation bar at the top of the page-->	
-	<div id="Navbar"> 
-		<a href="#">About</a>
-		<a href="#">Store</a>
-		<a href="#">Gmail</a>
-		<a href="#">Images</a>
+	<div> 
+		<a id="About" href="#">About</a>
+		<a id="Store" href="#">Store</a>
+		<a id="Gmail" href="#">Gmail</a>
+		<a id="Images" href="#">Images</a>
 
 		<a href="#"><img id="AppsIcon" src="https://cdn1.iconfinder.com/data/icons/material-core/16/apps-128.png" alt="Google Apps"> </a>
 
@@ -33,10 +33,12 @@
 	
 		<form> 
 			<input id="SearchBar" type="text"> <br>
-			<input type="submit" value="Google Search"> 
-			<input type="submit" value="I'm Feeling Lucky"> <br>
+			<div id="Buttons">
+				<input id="GSearch" type="submit" value="Google Search"> 
+				<input id="Lucky" type="submit" value="I'm Feeling Lucky"> 
+			</div> <br>
 		</form>
-		<p> Google offered in: <a href="">Francais</a> </p>
+		<p id="Francais"> Google offered in: <a href="">Francais</a> </p>
 	
 
 </body>
