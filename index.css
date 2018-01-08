@@ -1,59 +1,97 @@
 html * {
-font-family: arial sans-serif;
+font-family: arial, sans-serif;
 font-size: 13px;
 }
 
+/* This links to all the lists I used which in this case was just the nav bar at the top */
+ul {
+	list-style-type: none;
+	padding: 15px;
+	margin: 0;
+	overflow: hidden;
+}
+
+li {
+	display: inline;
+
+}
+
+/* This covers all the links used throughout the page */
+
+a:link {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+
+/* The specific adjustments for the nav bar links. I probably could condense some of this into a class for all of them but it was working so I didnt mess with it */
 #About {
-	display: inline-block;
-	padding-left: 15px;
 	color: #000;
 	opacity: 0.75;
 	cursor: pointer;
+	padding: 0px;
+	padding-top: 5px;
 }
 
 #Store {
-	display: inline-block;
-	padding-left: 15px;
 	color: #000;
 	opacity: 0.75;
 	cursor: pointer;
+	padding-left: 15px;
+	padding-top: 5px;
 }
 
+
+
 #Gmail {
-	padding-left: 800px;
-	display: inline-block;
 	color: #000;
 	opacity: 0.75;
 	cursor: pointer;
+	float: right;
+	padding-right: 15px;
+	padding-top: 5px;
 }
 
 #Images {
-	padding-left: 15px;
-	display: inline-block;
 	color: #000;
 	opacity: 0.75;
 	cursor: pointer;
-}
+	float: right;	
+	padding-right: 15px;	
+	padding-top: 5px;
+	}
 
 #AppsIcon {
-	padding-left: 45px;
+	
 	height: 16px;
-	color: #fff;
 	cursor: pointer;
+	float: right;
+	padding-right: 17px;
+	padding-top: 5px;
 }
 
 #Notificaitons {
-	padding-left: 40px;
+	
 	height: 20px;
-	color: #fff;
 	cursor: pointer;
+	float: right;
+	padding-right: 17px;
+	padding-top: 5px;
 }
 
 #Account {
-	padding-left: 45px;
-	height: 40px;
+	
+	height: 30px;
 	cursor: pointer;
+	float: right;
+	padding-right: 15px;
+
 }
+
+
+
+/* This links to the google logo and positions it */
 
 #Logo {
 	width: 272px;
@@ -63,26 +101,124 @@ font-size: 13px;
 	padding: 109px 0px 0px 0px;
 }
 
+/* This created the search bar and position it */
 
-
-/*google uses a box around the search bar and the search bar is invisable */
 #SearchBar {
-		border: border-box #222;
-		
-  		float: center;
-        display: block;
-        width: 45%;
-        margin: auto;
-        padding: 0px;
+	border: none;
+	padding: 10px;
+	margin: 10px;
+	height: 20px;
+	width: 468px;
+	border: 1px solid #eaeaea;
+	outline: none;
+	margin: auto;
+	display: block;
+	box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2), 0 2px 3px 0 rgba(0, 0, 0, 0.19);
+	
+    
 }
 
-#Buttons {
-	padding: 15px 0;
-	text-align: center;
-} 
+/* Button creation and design */
+.buttons {
+	display: inline-block;
+	margin: 15px 3px;
+	height: 40px;
+	border: 1px solid #f2f2f2;
+	border-radius: 2px;
+	background-color: #f8f8f8;
+	font-size: small;
+	font-weight: bold;
+	color: #757575;
+	line-height: 0;
+	padding: 14px;
+	font-family: arial, sans-serif;
+	box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+
+}
+.SearchButtons {
+	text-align: center;	
+}
+.buttons:hover {
+	outline: #c6c6c6 solid 1px;
+}
+
 
 #Francais {
 	text-align: center;
 }
 
-  
+/* Bottom Nav bars and design */
+.Location { 
+	border: 1px solid #e4e4e4;
+	background-color: #f2f2f2;
+	position: absolute;
+	width: 100%;
+	height: 35px;
+	display: inline;
+	list-style-type: none;
+	padding-right: 0px;
+	bottom: 35px;
+	border: 1px solid #e4e4e4;
+
+}
+
+#Canada {
+	font-size: 15px;
+	color: rgba(0,0,0,.54);
+	text-align: left;
+	padding: 10px;
+	position: absolute;
+}
+
+.BottomFooter {
+	border: 1px solid #e4e4e4;
+	background-color: #f2f2f2;
+	position: absolute;
+	width: 100%;
+	height: 35px;
+	display: inline;
+	list-style-type: none;
+	padding-right: 0px;
+	bottom: 0;
+}
+
+
+
+#Advertising {
+	font-size: 15px;
+	color: rgba(0,0,0,.54);
+	float: left;
+	padding: 10px;
+
+}
+#Business {
+	font-size: 15px;
+	color: rgba(0,0,0,.54);
+	float: left;
+	padding: 10px;
+	
+}
+#Privacy{
+	font-size: 15px;
+	color: rgba(0,0,0,.54);
+	float: right;
+	padding: 10px;
+}
+#Terms {
+	font-size: 15px;
+	color: rgba(0,0,0,.54);
+	float: right;
+	padding: 10px;
+}
+#Settings {
+	font-size: 15px;);
+	color: rgba(0,0,0,.54);
+	float: right;
+	padding: 10px;
+}		
+#Use {
+	font-size: 15px;
+	color: rgba(0,0,0,.54);
+	float: right;
+	padding: 10px 20px 0px 0px;
+}

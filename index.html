@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 
-<!-- a link to the css stylesheet --> 
+<!-- a link to the css stylesheet  and the title--> 
 <head> 
 	<title>Google</title>
 	<link rel="stylesheet" type="text/css" href="index.css">
@@ -10,17 +10,21 @@
 <body>
 
 <!-- the navigation bar at the top of the page-->	
-	<div> 
-		<a id="About" href="#">About</a>
-		<a id="Store" href="#">Store</a>
-		<a id="Gmail" href="#">Gmail</a>
-		<a id="Images" href="#">Images</a>
+	<div>
+		<ul id="NavList"> 
+			<li><a id="About" href="#">About</a></li>
+			<li><a id="Store" href="#">Store</a></li>
 
-		<a href="#"><img id="AppsIcon" src="https://cdn1.iconfinder.com/data/icons/material-core/16/apps-128.png" alt="Google Apps"> </a>
+			<li><a href="#"><img id="Account" src="https://lh3.googleusercontent.com/H9yAIsZYqbIOh_E1ON90chVhO6SYSD6ucV-XirZXkMFDqLRjGoztobaxx1XS9CB4lfg=w300" alt="Google Account: User"></a></li> 
+			
+			<li><a href="#"><img id="Notificaitons" src="https://image.flaticon.com/icons/png/128/181/181539.png" alt="0 Google Notificaitons"></a></li>
 
-		<a href="#"><img id="Notificaitons" src="https://image.flaticon.com/icons/png/128/181/181539.png" alt="0 Google Notificaitons"></a>
+			<li><a href="#"><img id="AppsIcon" src="https://cdn1.iconfinder.com/data/icons/material-core/16/apps-128.png" alt="Google Apps"> </a></li>
 		
-		<a href="#"><img id="Account" src="https://lh3.googleusercontent.com/H9yAIsZYqbIOh_E1ON90chVhO6SYSD6ucV-XirZXkMFDqLRjGoztobaxx1XS9CB4lfg=w300" alt="Google Account: User"></a> <br>
+			<li><a id="Images" href="#">Images</a></li>
+			<li><a id="Gmail" href="#">Gmail</a></li>
+			<br>
+		</ul>
 	</div> 
 	
 
@@ -33,14 +37,31 @@
 	
 		<form> 
 			<input id="SearchBar" type="text"> <br>
-			<div id="Buttons">
-				<input id="GSearch" type="submit" value="Google Search"> 
-				<input id="Lucky" type="submit" value="I'm Feeling Lucky"> 
-			</div> <br>
 		</form>
-		<p id="Francais"> Google offered in: <a href="">Francais</a> </p>
+		
+<!-- Buttons -->
+		<div class="SearchButtons">
+			<button class="buttons" name="GoogleSearch">Google Search</button>
+			<button class="buttons" name="FeelingLucky">I'm Feeling Lucky</button> 
+		</div> <br>
+
+<!-- The text bar and link to French -->
+
+			<p id="Francais"> Google offered in: <a href="">Francais</a> </p>
 	
 
+<!-- The two nav bars at the bottom and each link in that grouping -->
+		<div class="Location">
+			<a id="Canada" href="#">Canada</a>
+		</div>
+		<div class="BottomFooter">
+				<a id="Advertising" href="#">Advertising</a>
+				<a id="Business" href="#">Business</a>
+				<a id="Use" href="#">Use Google.com</a>
+				<a id="Settings" href="#">Settings</a>
+				<a id="Terms" href="#">Terms</a>
+				<a id="Privacy" href="#">Privacy</a>
+			</div>
+		</div>
 </body>
-<footer></footer>
 </html>
